@@ -22,3 +22,34 @@ for(let i = 0; i <= 10; i++){
     outputVariable += "!";
     console.log(outputVariable);
 }
+
+let myGrade = 100; // Assign a value between 0 and 100
+
+if (myGrade >= 90) {
+    console.log('A');
+} else if (myGrade >= 80) {
+    console.log('B');
+} else if (myGrade >= 70) {
+    console.log('C');
+} else if (myGrade >= 60) {
+    console.log('D');
+} else {
+    console.log('F'); // else statement for 59 and below
+}
+
+switch (true) {
+    case (myGrade >= 90):
+        console.log('A');
+        break;
+    case (myGrade >= 80):
+        console.log('B');
+        break;
+    case (myGrade >= 70):
+        console.log('C');
+        break;
+    case (myGrade >= 60):
+        console.log('D');
+        break;
+    default:
+        console.log('F'); // default for 59 and below
+}
